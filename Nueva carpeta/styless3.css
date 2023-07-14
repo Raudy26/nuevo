@@ -1,0 +1,48 @@
+
+body {
+    background-image: url('fondo4.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100% ;
+  }
+
+
+  .caja-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+  }
+  
+  .caja {
+    width: 200px;
+    height: 200px;
+    background-color: #f2f2f26e;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu a {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+ 
+  }
+
+  .pagina {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+
+  }
